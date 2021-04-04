@@ -1,5 +1,6 @@
 package notes;
 
+
 public abstract class Note {
 	
 	public boolean pitchEquals(Note aNote) {
@@ -21,7 +22,6 @@ public abstract class Note {
 		Aflat.flat = AdblFlat;
 		
 		NaturalNote B = new NaturalNote("B", 3);
-		
 		SharpNote Bsharp = new SharpNote(B);
 		B.sharp = Bsharp;
 		DblSharpNote BdblSharp = new DblSharpNote(B);
@@ -32,7 +32,6 @@ public abstract class Note {
 		Bflat.flat = BdblFlat;
 		
 		NaturalNote C = new NaturalNote("C", 4);
-		
 		SharpNote Csharp = new SharpNote(C);
 		C.sharp = Csharp;
 		DblSharpNote CdblSharp = new DblSharpNote(C);
@@ -43,7 +42,6 @@ public abstract class Note {
 		Cflat.flat = CdblFlat;
 		
 		NaturalNote D = new NaturalNote("D", 6);
-		
 		SharpNote Dsharp = new SharpNote(D);
 		D.sharp = Dsharp;
 		DblSharpNote DdblSharp = new DblSharpNote(D);
@@ -54,7 +52,6 @@ public abstract class Note {
 		Dflat.flat = DdblFlat;
 		
 		NaturalNote E = new NaturalNote("E", 8);
-		
 		SharpNote Esharp = new SharpNote(E);
 		E.sharp = Esharp;
 		DblSharpNote EdblSharp = new DblSharpNote(E);
@@ -65,7 +62,6 @@ public abstract class Note {
 		Eflat.flat = EdblFlat;
 		
 		NaturalNote F = new NaturalNote("F", 9);
-		
 		SharpNote Fsharp = new SharpNote(F);
 		F.sharp = Fsharp;
 		DblSharpNote FdblSharp = new DblSharpNote(F);
@@ -76,7 +72,6 @@ public abstract class Note {
 		Fflat.flat = FdblFlat;
 		
 		NaturalNote G = new NaturalNote("G", 11);
-		
 		SharpNote Gsharp = new SharpNote(G);
 		G.sharp = Gsharp;
 		DblSharpNote GdblSharp = new DblSharpNote(G);
